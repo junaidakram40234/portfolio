@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSection from './HeroSection';
 import Page2 from '../pages/page2.jsx';
 import GlowingScrollIndicator from '../components/GlowingScrollIndicator.jsx';
+import About from './About';
 
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
       className="relative h-screen w-full overflow-y-scroll"
     >
       <HeroSection />
-      <Page2/>
+      <Page2 />
+      <About/>
       <div className="fixed bottom-4 right-4 z-[8] bg-black/50 backdrop-blur-xl p-2 rounded h-32 flex items-end justify-center">
         <GlowingScrollIndicator
           scrollContainerId="glowing-scroll-target"

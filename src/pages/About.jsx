@@ -1,11 +1,15 @@
-function About() {
+import React from 'react'
+import { BlurReveal } from "../components/ui/blur-reveal.jsx";
+
+const About = () => {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-50 flex flex-col items-center justify-center gap-4">
-      <h1 className="text-4xl font-bold">About</h1>
-      <p className="text-slate-300">This is the about page.</p>
+    <div className='h-screen w-full pt-20'>
+      <div className='h-20 w-full  flex items-center justify-center text-white text-7xl font-semibold'>
+        <BlurReveal delay={0} >About&nbsp;</BlurReveal>
+      <BlurReveal delay={0.1} >Me</BlurReveal>
+      </div>
     </div>
-  )
+  );
 }
 
 export default About
-

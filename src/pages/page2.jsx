@@ -1,8 +1,12 @@
 import React from 'react'
+import { TimelineBlock } from '../components/uitripled/timeline-block-shadcnui.jsx'
 
 const page2 = () => {
   return (
-    <div className='h-screen w-full'>page2</div>
+    <div className='h-max w-full bg-white'>
+      <TimelineBlock
+      />
+    </div>
   )
 }
 
